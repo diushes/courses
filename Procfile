@@ -1,1 +1,1 @@
-web: gunicorn lastcourse:lastcourse.server
+web: gunicorn lastcourse.wsgi --log-file -
